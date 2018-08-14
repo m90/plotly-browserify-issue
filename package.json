@@ -1,0 +1,28 @@
+{
+  "name": "plotly-browserify-issue",
+  "version": "1.0.0",
+  "description": "Demonstrating an issue with plotly.js and Browserify",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "plotly.js": "^1.39.4",
+    "plotly.js-dist": "^1.39.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example:dist": "browserify main-dist.js -o bundle.js",
+    "example:plotly": "browserify main-plotly.js -o bundle.js",
+    "example:main": "browserify main-main.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m90/plotly-browserify-issue.git"
+  },
+  "author": "Frederik Ring <frederik.ring@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/m90/plotly-browserify-issue/issues"
+  },
+  "homepage": "https://github.com/m90/plotly-browserify-issue#readme"
+}
